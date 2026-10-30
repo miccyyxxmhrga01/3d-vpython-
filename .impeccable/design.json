@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-30T16:56:45.919246+00:00",
+  "title": "Design System: Caybin Dream House",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary",
+        "tonalRamp": [
+          "oklch(0.15 0.0452 153.52)",
+          "oklch(0.26 0.0452 153.52)",
+          "oklch(0.38 0.0452 153.52)",
+          "oklch(0.49 0.0452 153.52)",
+          "oklch(0.61 0.0452 153.52)",
+          "oklch(0.72 0.0452 153.52)",
+          "oklch(0.84 0.0452 153.52)",
+          "oklch(0.95 0.0452 153.52)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Primary Hover",
+        "tonalRamp": [
+          "oklch(0.15 0.0475 151.78)",
+          "oklch(0.26 0.0475 151.78)",
+          "oklch(0.38 0.0475 151.78)",
+          "oklch(0.49 0.0475 151.78)",
+          "oklch(0.61 0.0475 151.78)",
+          "oklch(0.72 0.0475 151.78)",
+          "oklch(0.84 0.0475 151.78)",
+          "oklch(0.95 0.0475 151.78)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "tonalRamp": [
+          "oklch(0.15 0.0080 106.55)",
+          "oklch(0.26 0.0080 106.55)",
+          "oklch(0.38 0.0080 106.55)",
+          "oklch(0.49 0.0080 106.55)",
+          "oklch(0.61 0.0080 106.55)",
+          "oklch(0.72 0.0080 106.55)",
+          "oklch(0.84 0.0080 106.55)",
+          "oklch(0.95 0.0080 106.55)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "tonalRamp": [
+          "oklch(0.15 0.0053 106.50)",
+          "oklch(0.26 0.0053 106.50)",
+          "oklch(0.38 0.0053 106.50)",
+          "oklch(0.49 0.0053 106.50)",
+          "oklch(0.61 0.0053 106.50)",
+          "oklch(0.72 0.0053 106.50)",
+          "oklch(0.84 0.0053 106.50)",
+          "oklch(0.95 0.0053 106.50)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(0.15 0.0143 149.41)",
+          "oklch(0.26 0.0143 149.41)",
+          "oklch(0.38 0.0143 149.41)",
+          "oklch(0.49 0.0143 149.41)",
+          "oklch(0.61 0.0143 149.41)",
+          "oklch(0.72 0.0143 149.41)",
+          "oklch(0.84 0.0143 149.41)",
+          "oklch(0.95 0.0143 149.41)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(0.15 0.0274 131.44)",
+          "oklch(0.26 0.0274 131.44)",
+          "oklch(0.38 0.0274 131.44)",
+          "oklch(0.49 0.0274 131.44)",
+          "oklch(0.61 0.0274 131.44)",
+          "oklch(0.72 0.0274 131.44)",
+          "oklch(0.84 0.0274 131.44)",
+          "oklch(0.95 0.0274 131.44)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "tonalRamp": [
+          "oklch(0.15 0.0136 115.86)",
+          "oklch(0.26 0.0136 115.86)",
+          "oklch(0.38 0.0136 115.86)",
+          "oklch(0.49 0.0136 115.86)",
+          "oklch(0.61 0.0136 115.86)",
+          "oklch(0.72 0.0136 115.86)",
+          "oklch(0.84 0.0136 115.86)",
+          "oklch(0.95 0.0136 115.86)"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised",
+        "tonalRamp": [
+          "oklch(0.15 0.0000 0.00)",
+          "oklch(0.26 0.0000 0.00)",
+          "oklch(0.38 0.0000 0.00)",
+          "oklch(0.49 0.0000 0.00)",
+          "oklch(0.61 0.0000 0.00)",
+          "oklch(0.72 0.0000 0.00)",
+          "oklch(0.84 0.0000 0.00)",
+          "oklch(0.95 0.0000 0.00)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus",
+        "tonalRamp": [
+          "oklch(0.15 0.0664 151.39)",
+          "oklch(0.26 0.0664 151.39)",
+          "oklch(0.38 0.0664 151.39)",
+          "oklch(0.49 0.0664 151.39)",
+          "oklch(0.61 0.0664 151.39)",
+          "oklch(0.72 0.0664 151.39)",
+          "oklch(0.84 0.0664 151.39)",
+          "oklch(0.95 0.0664 151.39)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "tonalRamp": [
+          "oklch(0.15 0.0135 115.85)",
+          "oklch(0.26 0.0135 115.85)",
+          "oklch(0.38 0.0135 115.85)",
+          "oklch(0.49 0.0135 115.85)",
+          "oklch(0.61 0.0135 115.85)",
+          "oklch(0.72 0.0135 115.85)",
+          "oklch(0.84 0.0135 115.85)",
+          "oklch(0.95 0.0135 115.85)"
+        ]
+      },
+      "overlay": {
+        "role": "neutral",
+        "displayName": "Overlay",
+        "tonalRamp": [
+          "oklch(0.15 0.0093 113.16)",
+          "oklch(0.26 0.0093 113.16)",
+          "oklch(0.38 0.0093 113.16)",
+          "oklch(0.49 0.0093 113.16)",
+          "oklch(0.61 0.0093 113.16)",
+          "oklch(0.72 0.0093 113.16)",
+          "oklch(0.84 0.0093 113.16)",
+          "oklch(0.95 0.0093 113.16)"
+        ]
+      },
+      "navigation-active": {
+        "role": "neutral",
+        "displayName": "Navigation Active",
+        "tonalRamp": [
+          "oklch(0.15 0.0166 121.79)",
+          "oklch(0.26 0.0166 121.79)",
+          "oklch(0.38 0.0166 121.79)",
+          "oklch(0.49 0.0166 121.79)",
+          "oklch(0.61 0.0166 121.79)",
+          "oklch(0.72 0.0166 121.79)",
+          "oklch(0.84 0.0166 121.79)",
+          "oklch(0.95 0.0166 121.79)"
+        ]
+      },
+      "navigation-hover": {
+        "role": "neutral",
+        "displayName": "Navigation Hover",
+        "tonalRamp": [
+          "oklch(0.15 0.0122 116.82)",
+          "oklch(0.26 0.0122 116.82)",
+          "oklch(0.38 0.0122 116.82)",
+          "oklch(0.49 0.0122 116.82)",
+          "oklch(0.61 0.0122 116.82)",
+          "oklch(0.72 0.0122 116.82)",
+          "oklch(0.84 0.0122 116.82)",
+          "oklch(0.95 0.0122 116.82)"
+        ]
+      },
+      "concrete-swatch": {
+        "role": "secondary",
+        "displayName": "Concrete Swatch",
+        "tonalRamp": [
+          "oklch(0.15 0.0152 102.51)",
+          "oklch(0.26 0.0152 102.51)",
+          "oklch(0.38 0.0152 102.51)",
+          "oklch(0.49 0.0152 102.51)",
+          "oklch(0.61 0.0152 102.51)",
+          "oklch(0.72 0.0152 102.51)",
+          "oklch(0.84 0.0152 102.51)",
+          "oklch(0.95 0.0152 102.51)"
+        ]
+      },
+      "oak-swatch": {
+        "role": "secondary",
+        "displayName": "Oak Swatch",
+        "tonalRamp": [
+          "oklch(0.15 0.0752 67.78)",
+          "oklch(0.26 0.0752 67.78)",
+          "oklch(0.38 0.0752 67.78)",
+          "oklch(0.49 0.0752 67.78)",
+          "oklch(0.61 0.0752 67.78)",
+          "oklch(0.72 0.0752 67.78)",
+          "oklch(0.84 0.0752 67.78)",
+          "oklch(0.95 0.0752 67.78)"
+        ]
+      },
+      "glass-swatch": {
+        "role": "secondary",
+        "displayName": "Glass Swatch",
+        "tonalRamp": [
+          "oklch(0.15 0.0277 170.15)",
+          "oklch(0.26 0.0277 170.15)",
+          "oklch(0.38 0.0277 170.15)",
+          "oklch(0.49 0.0277 170.15)",
+          "oklch(0.61 0.0277 170.15)",
+          "oklch(0.72 0.0277 170.15)",
+          "oklch(0.84 0.0277 170.15)",
+          "oklch(0.95 0.0277 170.15)"
+        ]
+      },
+      "model-plaster": {
+        "role": "secondary",
+        "displayName": "Model Plaster",
+        "tonalRamp": [
+          "oklch(0.15 0.0157 86.43)",
+          "oklch(0.26 0.0157 86.43)",
+          "oklch(0.38 0.0157 86.43)",
+          "oklch(0.49 0.0157 86.43)",
+          "oklch(0.61 0.0157 86.43)",
+          "oklch(0.72 0.0157 86.43)",
+          "oklch(0.84 0.0157 86.43)",
+          "oklch(0.95 0.0157 86.43)"
+        ]
+      },
+      "model-concrete": {
+        "role": "secondary",
+        "displayName": "Model Concrete",
+        "tonalRamp": [
+          "oklch(0.15 0.0152 106.74)",
+          "oklch(0.26 0.0152 106.74)",
+          "oklch(0.38 0.0152 106.74)",
+          "oklch(0.49 0.0152 106.74)",
+          "oklch(0.61 0.0152 106.74)",
+          "oklch(0.72 0.0152 106.74)",
+          "oklch(0.84 0.0152 106.74)",
+          "oklch(0.95 0.0152 106.74)"
+        ]
+      },
+      "model-stone": {
+        "role": "secondary",
+        "displayName": "Model Stone",
+        "tonalRamp": [
+          "oklch(0.15 0.0211 81.77)",
+          "oklch(0.26 0.0211 81.77)",
+          "oklch(0.38 0.0211 81.77)",
+          "oklch(0.49 0.0211 81.77)",
+          "oklch(0.61 0.0211 81.77)",
+          "oklch(0.72 0.0211 81.77)",
+          "oklch(0.84 0.0211 81.77)",
+          "oklch(0.95 0.0211 81.77)"
+        ]
+      },
+      "model-wood": {
+        "role": "secondary",
+        "displayName": "Model Wood",
+        "tonalRamp": [
+          "oklch(0.15 0.0698 61.18)",
+          "oklch(0.26 0.0698 61.18)",
+          "oklch(0.38 0.0698 61.18)",
+          "oklch(0.49 0.0698 61.18)",
+          "oklch(0.61 0.0698 61.18)",
+          "oklch(0.72 0.0698 61.18)",
+          "oklch(0.84 0.0698 61.18)",
+          "oklch(0.95 0.0698 61.18)"
+        ]
+      },
+      "model-frame": {
+        "role": "secondary",
+        "displayName": "Model Frame",
+        "tonalRamp": [
+          "oklch(0.15 0.0140 149.47)",
+          "oklch(0.26 0.0140 149.47)",
+          "oklch(0.38 0.0140 149.47)",
+          "oklch(0.49 0.0140 149.47)",
+          "oklch(0.61 0.0140 149.47)",
+          "oklch(0.72 0.0140 149.47)",
+          "oklch(0.84 0.0140 149.47)",
+          "oklch(0.95 0.0140 149.47)"
+        ]
+      },
+      "model-glass": {
+        "role": "secondary",
+        "displayName": "Model Glass",
+        "tonalRamp": [
+          "oklch(0.15 0.0360 183.24)",
+          "oklch(0.26 0.0360 183.24)",
+          "oklch(0.38 0.0360 183.24)",
+          "oklch(0.49 0.0360 183.24)",
+          "oklch(0.61 0.0360 183.24)",
+          "oklch(0.72 0.0360 183.24)",
+          "oklch(0.84 0.0360 183.24)",
+          "oklch(0.95 0.0360 183.24)"
+        ]
+      },
+      "model-linen": {
+        "role": "secondary",
+        "displayName": "Model Linen",
+        "tonalRamp": [
+          "oklch(0.15 0.0240 88.24)",
+          "oklch(0.26 0.0240 88.24)",
+          "oklch(0.38 0.0240 88.24)",
+          "oklch(0.49 0.0240 88.24)",
+          "oklch(0.61 0.0240 88.24)",
+          "oklch(0.72 0.0240 88.24)",
+          "oklch(0.84 0.0240 88.24)",
+          "oklch(0.95 0.0240 88.24)"
+        ]
+      },
+      "model-leaf": {
+        "role": "secondary",
+        "displayName": "Model Leaf",
+        "tonalRamp": [
+          "oklch(0.15 0.0652 124.10)",
+          "oklch(0.26 0.0652 124.10)",
+          "oklch(0.38 0.0652 124.10)",
+          "oklch(0.49 0.0652 124.10)",
+          "oklch(0.61 0.0652 124.10)",
+          "oklch(0.72 0.0652 124.10)",
+          "oklch(0.84 0.0652 124.10)",
+          "oklch(0.95 0.0652 124.10)"
+        ]
+      },
+      "model-water": {
+        "role": "secondary",
+        "displayName": "Model Water",
+        "tonalRamp": [
+          "oklch(0.15 0.0633 185.42)",
+          "oklch(0.26 0.0633 185.42)",
+          "oklch(0.38 0.0633 185.42)",
+          "oklch(0.49 0.0633 185.42)",
+          "oklch(0.61 0.0633 185.42)",
+          "oklch(0.72 0.0633 185.42)",
+          "oklch(0.84 0.0633 185.42)",
+          "oklch(0.95 0.0633 185.42)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Project Heading",
+        "purpose": "Project identity only; 29px on short desktop and 20px on mobile."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "House Display identity, 19px on mobile."
+      },
+      "body": {
+        "displayName": "Introduction",
+        "purpose": "Short, comfortably led project description."
+      },
+      "title": {
+        "displayName": "Room Name",
+        "purpose": "Medium-weight navigation names."
+      },
+      "label": {
+        "displayName": "Operational Label",
+        "purpose": "Buttons, supporting labels, captions, and help."
+      },
+      "figure": {
+        "displayName": "House Figure",
+        "purpose": "Tabular house facts."
+      }
+    },
+    "shadows": [
+      {
+        "name": "help-panel",
+        "value": "0 8px 28px #29352618",
+        "purpose": "Soft ambient depth under floating help only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "range-reveal",
+        "value": "opacity .15s",
+        "purpose": "Desktop tour slider reveals on viewer hover or range focus."
+      },
+      {
+        "name": "announcement",
+        "value": "opacity .2s",
+        "purpose": "Brief status feedback; text remains for 2200ms."
+      },
+      {
+        "name": "camera-follow",
+        "value": "1 - exp(-dt * 5.8)",
+        "purpose": "Frame-rate independent camera interpolation; snaps for reduced motion."
+      },
+      {
+        "name": "route-progress",
+        "value": "1 - exp(-dt * 8)",
+        "purpose": "Smooth route progression without curved corner cutting; snaps for reduced motion."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition: none; scroll-behavior: auto",
+        "purpose": "CSS reduced-motion override paired with direct camera movement."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-max",
+        "value": "760px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1050px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      },
+      {
+        "name": "short-desktop",
+        "value": "(max-height: 800px) and (min-width: 761px)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Enter the house or retry the scene.",
+      "html": "<button class=\"ds-primary\"><span>Enter the house</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-primary{font-family:\"Segoe UI\",Helvetica,Arial,sans-serif;font-size:12px;display:flex;align-items:center;justify-content:space-between;gap:15px;min-height:44px;min-width:225px;padding:0 15px;border:0;border-radius:6px;background:var(--accent,#3c5744);color:#fff;cursor:pointer}.ds-primary svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.ds-primary:hover{background:#2e4935}.ds-primary:focus-visible{outline:2px solid var(--focus,#547d5e);outline-offset:4px;}.ds-primary:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Room Navigation",
+      "kind": "nav",
+      "refersTo": "room-navigation",
+      "description": "A selected room with secondary context and a position number.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Rooms\"><button class=\"ds-room ds-current\" aria-current=\"location\"><span class=\"ds-number\">02</span><span class=\"ds-copy\"><strong>Living room</strong><small>Light, space &amp; a slower pace</small></span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m9 5 7 7-7 7\"/></svg></button></nav>",
+      "css": ".ds-nav{width:228px}.ds-room{font-family:\"Segoe UI\",Helvetica,Arial,sans-serif;font-size:12px;display:flex;align-items:center;gap:12px;width:100%;min-height:56px;padding:11px 9px;text-align:left;border:0;border-radius:7px;background:transparent;color:var(--ink,#2d342e);cursor:pointer}.ds-current{background:#e1e5d9}.ds-room:hover{background:#e7e9e0;color:var(--accent,#3c5744)}.ds-number{width:19px;color:var(--muted,#596252);font-variant-numeric:tabular-nums}.ds-copy{display:flex;flex-direction:column;gap:4px}.ds-copy strong{font-size:13px;font-weight:500}.ds-copy small{font-size:12px;color:var(--muted,#596252)}.ds-room svg{width:13px;height:13px;fill:none;stroke:#84917b;stroke-width:1.5;margin-left:auto}.ds-room:focus-visible{outline:2px solid var(--focus,#547d5e);outline-offset:4px;}.ds-room:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Scene Tool",
+      "kind": "button",
+      "description": "Bordered canvas tool with a visible pressed state.",
+      "html": "<button class=\"ds-tool\" aria-pressed=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m3 11 9-7 9 7M5 10v10h14V10m-10 5h6\"/></svg><span>Show roof</span></button>",
+      "css": ".ds-tool{font-family:\"Segoe UI\",Helvetica,Arial,sans-serif;font-size:12px;height:37px;padding:0 11px;display:inline-flex;align-items:center;gap:7px;border:1px solid #d5d9ce;border-radius:6px;background:#f7f8f1;color:var(--ink,#2d342e);cursor:pointer}.ds-tool svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.ds-tool[aria-pressed=true]{background:#d8e1d2;border-color:#a9bca0}.ds-tool:hover{color:var(--accent,#3c5744)}.ds-tool:focus-visible{outline:2px solid var(--focus,#547d5e);outline-offset:4px;}.ds-tool:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Walkthrough Information",
+      "kind": "card",
+      "refersTo": "viewer-overlay",
+      "description": "Opaque route context keeps instructions readable over geometry.",
+      "html": "<div class=\"ds-walk\"><div class=\"ds-hint\"><span>Scroll to step inside</span></div><div class=\"ds-track\"><span></span></div><div class=\"ds-meta\"><span>Outside, looking in</span><button>Reset view</button></div></div>",
+      "css": ".ds-walk{font-family:\"Segoe UI\",Helvetica,Arial,sans-serif;font-size:12px;width:280px;padding:13px 16px 11px;background:#f6f7f0;border:1px solid #d3d7ca;border-radius:8px;color:var(--ink,#2d342e)}.ds-hint{display:flex;align-items:center;gap:8px}.ds-track{height:2px;background:#d9dfd1;margin-top:13px;overflow:hidden}.ds-track span{display:block;width:25%;height:100%;background:#54704e}.ds-meta{display:flex;justify-content:space-between;align-items:center;gap:9px;margin-top:8px;color:#5e6a54}.ds-meta button{font-family:\"Segoe UI\",Helvetica,Arial,sans-serif;font-size:12px;padding:0;border:0;background:none;color:inherit;cursor:pointer}.ds-meta button:hover{color:var(--accent,#3c5744)}.ds-meta button:focus-visible{outline:2px solid var(--focus,#547d5e);outline-offset:4px;}.ds-meta button:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Walkthrough Range",
+      "kind": "input",
+      "description": "Native forest range input for touch and precise tour positioning.",
+      "html": "<input class=\"ds-range\" type=\"range\" min=\"0\" max=\"1000\" value=\"250\" aria-label=\"Walkthrough position\">",
+      "css": ".ds-range{width:220px;accent-color:var(--accent,#3c5744);cursor:ew-resize}.ds-range:focus-visible{outline:2px solid var(--focus,#547d5e);outline-offset:4px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Architectural Frame",
+    "overview": "The interface gives a warm modern house room to be seen. Pale stone surfaces, charcoal type, and a forest primary control form a restrained working frame; timber, planting, glass, and water belong to the three-dimensional architecture. The experience is a compact concept viewer rather than a marketing page.\n\nDensity stays measured and useful: short room labels, small familiar controls, and readable context around a dominant model. The project title leads directly, without an introductory kicker. This records the implemented warm modern direction in [the surface contract](.impeccable/surface.md); new surfaces should inherit its materials and restraint rather than its exact composition.",
+    "keyCharacteristics": [
+      "Pale stone framing with a single forest action color.",
+      "Dedicated display type for project identity; compact sans type for operation.",
+      "Flat, lightly bordered controls around a richly modeled scene.",
+      "Immediate room, camera, and walkthrough feedback."
+    ],
+    "rules": [
+      {
+        "name": "The Material Ownership Rule",
+        "body": "Keep oak, glass, and water as material information; use forest for interface action.",
+        "section": "colors"
+      },
+      {
+        "name": "The Identity Pair Rule",
+        "body": "Reserve House Display for the project heading and wordmark; keep operational labels in the body stack.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Frame Rule",
+        "body": "Use tonal separation for resting controls; reserve the documented shadow for the floating help panel.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep material colors tied to architecture and forest tied to interface action.",
+      "**Do** preserve opaque labels and clear focus outlines over the changing scene.",
+      "**Do** use the dedicated display face for project identity and the body stack for controls.",
+      "**Do** adapt control density and navigation to narrow and short viewports.",
+      "**Do** honor reduced motion in both UI transitions and camera movement."
+    ],
+    "donts": [
+      "**Don't** introduce a kicker above the project title.",
+      "**Don't** add ornamental gradients, decorative cards, or hard offset shadows to this quiet material world.",
+      "**Don't** turn the material swatches into additional competing action colors.",
+      "**Don't** promote the desktop sidebar composition into a requirement for every future surface."
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eeeee8">
+  <title>Caybin Dream House</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/vendor/jquery.min.js"></script>
+  <script defer src="/vendor/jquery-ui.custom.min.js"></script>
+  <script defer src="/vendor/glow.min.js"></script>
+  <script defer src="/viewer.js"></script>
+</head>
+<body>
+  <svg class="icon-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-house" viewBox="0 0 24 24"><path d="M3 21V9h11v12m0-18h7v18M3 14h11"/></symbol>
+    <symbol id="i-roof" viewBox="0 0 24 24"><path d="m3 11 9-7 9 7M5 10v10h14V10m-10 5h6"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></symbol>
+    <symbol id="i-reset" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M9 3H3v6m12-6h6v6M3 15v6h6m12-6v6h-6"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5a2.5 2.5 0 0 1 5 0c0 2-2.5 2-2.5 4m0 3v.5"/></symbol>
+    <symbol id="i-mouse" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="6"/><path d="M12 6v5"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+  </defs></svg>
+  <header class="topbar">
+    <a class="wordmark" href="/" aria-label="Caybin Dream House home"><svg class="logo"><use href="#i-house"/></svg><span>Caybin Dream House<span class="wordmark-dot">.</span></span></a>
+    <span class="topbar-project">A home, imagined in Python</span>
+    <button class="text-button help-button" id="help-toggle" aria-expanded="false" aria-controls="help-panel"><svg><use href="#i-help"/></svg><span>How to explore</span></button>
+  </header>
+
+  <div class="workspace">
+    <aside class="sidebar" aria-label="House details and rooms">
+      <div class="project-intro">
+        <h1>Caybin Dream House</h1>
+        <p>Concrete, warm oak, and a little room to breathe. Step inside your everyday escape.</p>
+        <div class="house-facts"><div><strong>2</strong><span>Storeys</span></div><div><strong>216<span> m²</span></strong><span>Footprint</span></div><div><strong>4</strong><span>Tour stops</span></div></div>
+        <button class="primary-button" id="enter-house" disabled><span>Enter the house</span><svg><use href="#i-arrow"/></svg></button>
+      </div>
+
+      <nav class="room-nav" aria-label="Explore the house">
+        <div class="nav-heading">Explore the spaces</div>
+        <button class="room-link active" data-view="overview" aria-current="location"><span class="room-number"><svg><use href="#i-house"/></svg></span><span><strong>Exterior overview</strong><small>The complete picture</small></span><svg class="room-chevron"><use href="#i-chevron"/></svg></button>
+        <div id="room-links"></div>
+        <button class="room-link" data-view="terrace"><span class="room-number">05</span><span><strong>Pool & terrace</strong><small>Life in the open air</small></span><svg class="room-chevron"><use href="#i-chevron"/></svg></button>
+      </nav>
+
+      <div class="material-section"><div class="nav-heading">The material palette</div><div class="materials"><div><span class="swatch concrete"></span><small>Concrete</small></div><div><span class="swatch oak"></span><small>Warm oak</small></div><div><span class="swatch glass"></span><small>Glass</small></div></div></div>
+      <div class="sidebar-footer"><span class="status-dot"></span><span>A live 3D concept, built in Python</span></div>
+    </aside>
+
+    <main class="viewer-shell" id="viewer-shell" aria-label="Interactive 3D house">
+      <div id="viewport" tabindex="0" role="application" aria-label="3D house. Scroll to enter. Drag to look around. Use W A S D to walk."></div>
+      <div class="viewer-top">
+        <div class="scene-tools"><button class="tool-button" id="view-exterior">Perspective</button></div>
+        <div class="scene-tools"><button class="tool-button" id="roof-toggle" aria-pressed="false" title="Hide the roof (R)"><svg><use href="#i-roof"/></svg><span>Hide roof</span></button><button class="tool-button" id="light-toggle" aria-pressed="false" title="Switch lighting (L)"><svg><use href="#i-sun"/></svg><span>Daylight</span></button><button class="tool-button icon-only" id="fullscreen" title="Full screen" aria-label="Full screen"><svg><use href="#i-expand"/></svg></button></div>
+      </div>
+
+      <div class="scene-caption"><span class="live-dot"></span><span id="scene-name">Exterior overview</span><span class="scene-separator">/</span><span id="scene-note">Warm modern · South-east view</span></div>
+      <div class="loading" id="loading" role="status"><svg class="loading-house"><use href="#i-house"/></svg><strong>Making room for your imagination.</strong><span>Building the house from Python…</span></div>
+      <div class="error-panel" id="error-panel" hidden role="alert"><strong>The 3D viewer couldn’t start.</strong><p id="error-message"></p><button class="primary-button" id="retry">Try again</button></div>
+
+      <div class="viewer-bottom">
+        <div class="walkthrough-bar"><div class="walkthrough-label"><svg><use href="#i-mouse"/></svg><span id="walkthrough-hint">Scroll to step inside</span><kbd>↓</kbd></div><div class="progress-track"><div id="tour-progress"></div></div><div class="walkthrough-meta"><span id="tour-position">Outside, looking in</span><button id="reset-view" title="Return to exterior (Esc)"><svg><use href="#i-reset"/></svg>Reset view</button></div></div>
+        <div class="orientation" aria-hidden="true"><svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="24"/><path d="m28 10-5 20 5-3 5 3z"/><path class="south" d="m28 45-5-15 5 3 5-3z"/></svg><span>N</span></div>
+      </div>
+      <div class="help-panel" id="help-panel" hidden><div class="help-heading"><strong>Make yourself at home</strong><button id="close-help" aria-label="Close instructions">×</button></div><p>Scroll down over the house to follow a route through the rooms. Scroll up to retrace your steps.</p><dl><div><dt>Drag</dt><dd>Orbit outside · look around inside</dd></div><div><dt>W A S D</dt><dd>Walk freely inside</dd></div><div><dt>↑ / ↓</dt><dd>Follow the tour</dd></div><div><dt>R / L</dt><dd>Roof / lighting</dd></div><div><dt>Esc</dt><dd>Return to the exterior</dd></div></dl><p class="touch-help">On touch screens, use the tour slider to move and drag the view to look around.</p></div>
+      <input id="tour-slider" class="tour-slider" type="range" min="0" max="1000" value="0" aria-label="Walkthrough position">
+    </main>
+  </div>
+  <div class="announcement" id="announcement" aria-live="polite"></div>
+</body>
+</html>

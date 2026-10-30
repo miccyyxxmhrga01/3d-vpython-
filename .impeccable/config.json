@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "static/index.html"
+        ],
+        "createdAt": "2026-10-30T16:47:42.176Z",
+        "reason": "Agent decision: stone-tinted viewer chrome follows the warm modern concrete and timber residence chosen by the user; this is intentional material context."
+      }
+    ]
+  }
+}

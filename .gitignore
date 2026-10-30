@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+*.log
+.pytest_cache/
+.taste-skill/
+.impeccable/browser-check.mjs
+.impeccable/hook.cache.json
+.impeccable/review/
+.impeccable/questions/
+.impeccable/config.local.json
