@@ -1,10 +1,19 @@
 __pycache__/
+*.py[cod]
 .venv/
+venv/
 *.log
 .pytest_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+house.json
+
+# Local agent tools and generated previews are not part of the application.
 .taste-skill/
-.impeccable/browser-check.mjs
-.impeccable/hook.cache.json
-.impeccable/review/
-.impeccable/questions/
-.impeccable/config.local.json
+.impeccable/
+.agents/
+.codex/

@@ -1,0 +1,8 @@
+/* Styles for VPython's own generated canvas page, inside the HTML frame. */
+html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: #e4e6dc; font-family: "Segoe UI", Helvetica, Arial, sans-serif; }
+#glowscript { position: absolute; inset: 0; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.scene-status { position: fixed; top: 76px; left: 22px; z-index: 1; max-width: calc(100vw - 44px); display: inline-block; color: #2d342e; background: #f6f7f0; font-size: 12px; line-height: 1.5; padding: 7px 10px; border-radius: 4px; white-space: normal; pointer-events: none; }
+.glowscript-canvas-wrapper { position: relative !important; width: min(100vw, calc((100dvh - 140px) * 1.4474)) !important; height: auto !important; aspect-ratio: 1100 / 760; margin: 0 !important; display: block !important; flex-shrink: 0; }
+.glowscript-canvas-wrapper canvas { position: absolute !important; inset: 0; width: 100% !important; height: 100% !important; outline: 0; touch-action: none; }
+.glowscript-caption, .glowscript-slider, .ui-resizable-handle { display: none !important; }
+@media (max-width: 600px) { .scene-status { top: 72px; left: 14px; max-width: calc(100vw - 28px); } }

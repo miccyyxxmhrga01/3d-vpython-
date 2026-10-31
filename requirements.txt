@@ -1,1 +1,3 @@
 vpython==7.6.5
+# VPython imports pkg_resources, which is absent from setuptools 82 and newer.
+setuptools<82
